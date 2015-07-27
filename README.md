@@ -12,4 +12,7 @@ get polymer-theme to apply to custom elements and not just the surface
 document. You'll see that the button in the surface document is
 colored as primary, but the button in the custom element is partly
 styled (has a drop shadow, font, etc) but is not styled as primary. So
-it seems like some of the styles are piercing the shadow dom and some aren't.
+it seems like some of the styles are piercing the shadow dom and some
+aren't.
+
+Tested on Ubuntu 14.04, Chrome 44.0.2403.107 and Firefox 39.0.
