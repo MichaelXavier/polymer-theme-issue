@@ -1,0 +1,25 @@
+<link rel="import" href="../polymer/polymer.html">
+<!-- adding these here does nothing -->
+<!-- <link rel="import" href="../paper-styles/paper-styles.html">
+<link rel="import" href="../polymer-themes/ice.html"> -->
+
+<dom-module id="my-element">
+  <style>
+  </style>
+
+  <template>
+    <paper-button raised primary>This, however, will be partly styled but not primary</paper-button>
+  </template>
+
+  <script>
+   (function() {
+     Polymer({
+       is: "my-element",
+
+       properties: {
+       }
+     });
+   })();
+  </script>
+
+</dom-module>
